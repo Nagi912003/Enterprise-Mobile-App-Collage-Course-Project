@@ -1,0 +1,16 @@
+Using Provider State Management, develop a mobile application with the
+following features, after signup and login:
+1. Create a screen to view a list all business services
+2. Create a screen to add a business service to favorite services list
+3. Create a screen to view a list all favorite business services
+4. Create a screen to view company profile of a selected business service
+5. Create a screen to get the distance between your current location and the business service provider address
+6. Create a screen to view a list all business services for a specific company
+
+10. Create a screen for search by service:
+    10.1. Select a service from a list
+    10.2. Then view search results as a list of all companies that provides this service
+    10.3. Change view of search results as map view for all companies that provides this service
+
+11. Select one of the search results: View the distance and directions between your current location and
+    the selected company
