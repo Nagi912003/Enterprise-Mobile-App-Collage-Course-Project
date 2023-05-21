@@ -1,32 +1,45 @@
-# Enterprise_mobile_app_course_project
+# Enterprise Mobile App - Collage Course Project
 
-Using RX Dart and inherited widget and Provider State Managment, develop a mobile application based on API integration with the 
-following features: 
-1. Create a login screen that returns (login success or login failure) 
-2. Create a signup screen that returns (signup success or login failure) with the following text data 
-fields: 
-2.1. Company Name (mandatory field) 
-2.2. Contact Person Name (mandatory field) 
-2.3. Company Industry (Checkbox List– optional field) 
-2.4. Contact Person Phone Number (Phone Number structure validation - mandatory field) 
-2.5. Email (Email structure validation - mandatory field) 
-2.6. Company Address (mandatory field) 
-2.7. Company Location [Long. – Lat. ] (mandatory field) 
-2.8. Company Size (4 options only {Micro, Small, Mini, Large} – optional field) 
-2.9. Password (at least 8 characters - mandatory field) 
-2.10. Confirm password (at least 8 characters – matching password field - mandatory field) 
-Signup failed if any of the mentioned conditions are not come true 
-3. Create an edit profile screen with add profile photo (from gallery or from camera). (Using http 
-plugin) 
-4. Create a screen to view a list all business services 
-5. Create a screen to add a business service to favorite services list 
-6. Create a screen to view a list all favorite business services 
-7. Create a screen to view company profile of a selected business service 
-8. Create a screen to get the distance between your current location and the business service provider 
-address 
-9. Create a screen to view a list all business services for a specific company 
+This enterprise mobile app, developed collaboratively by my friend Youssef Hassan and I (nagiElshershaby) as part of a collage course project, incorporates API integration and offers a range of features. The app utilizes RX Dart, Inherited Widget, and Provider State Management to ensure efficient data flow and a seamless user experience.
 
- 
+Key Features:
+
+Login Screen: Provides a login interface for users, returning either a login success or login failure response.
+
+Signup Screen: Enables users to register with the app, validating various data fields. The signup process includes the following mandatory and optional fields:
+
+Company Name
+Contact Person Name
+Company Industry (Checkbox List, optional)
+Contact Person Phone Number (validated structure, mandatory)
+Email (validated structure, mandatory)
+Company Address (mandatory)
+Company Location [Longitude - Latitude] (mandatory)
+Company Size (options: Micro, Small, Mini, Large - optional)
+Password (at least 8 characters, mandatory)
+Confirm Password (matching password field, mandatory)
+The signup process fails if any of the mentioned conditions are not met.
+
+Edit Profile Screen: Allows users to edit their profile, including the ability to add a profile photo from the gallery or using the device's camera. The HTTP plugin is utilized for image handling.
+
+Business Services List Screen: Displays a list of all available business services.
+
+Favorite Services Screen: Allows users to add business services to their favorite services list.
+
+Favorite Business Services List Screen: Presents a list of all favorited business services.
+
+Company Profile Screen: Displays the profile of a selected business service provider.
+
+Distance Calculation Screen: Calculates and presents the distance between the user's current location and the address of a business service provider.
+
+Business Services by Company Screen: Shows a list of all business services offered by a specific company.
+
+Search by Service Screen:
+
+Allows users to select a service from a list.
+Displays search results as a list of companies providing the selected service.
+Offers a map view of the search results, showcasing the locations of companies providing the service.
+Selected Search Result Screen: Shows the distance and provides directions between the user's current location and the selected company.
 
 
  
